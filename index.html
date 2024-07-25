@@ -3,6 +3,7 @@
 <html lang="en">
     <head>  <!-- Metadata, not displayed on page -->
         <meta charset="utf-8">  <!-- Set unicode character set -->
+        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">  <!-- Fix aspect ratio of images when resizing? -->
         <!-- Open Graph metadata used for non-X social previews -->
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Edward J. Thomas" />
@@ -24,6 +25,7 @@
                     Quantum Engineering PhD and Open-Source Software Contributor
             </em></p>
             <a href="about.html">About Me</a>
+            <a href="resume.html">Resume</a>
             <a href="https://www.linkedin.com/in/edward-thomas-902b17a4">LinkedIn</a>
             <a href="https://github.com/ejthomas">GitHub</a>
             <a href="https://scholar.google.com/citations?user=6pD9towAAAAJ&hl=en">Google Scholar</a>
@@ -32,10 +34,10 @@
         </div>
         <img 
             src="images/profile-image-large.jpg" 
-            style="height: 600px; margin: 100px; float: left;" 
+            style="height: auto; width: 900px; margin: 100px; margin-left: 0; float: left; max-width: 100%; display: block;" 
             alt="An image of Edward Thomas in a lab next to a dilution refrigerator"
         >
-        <div style="height: 600px; margin: 100px;">
+        <div style="height: auto; margin: 100px; min-height: 600px;">
             <h1>Hello there</h1>
             <p>
                 I have recently completed a PhD in Quantum Engineering, specializing in a combination of electronic
@@ -47,8 +49,8 @@
             </p>
         </div>
         <!-- Footer displays below other content -->
-        <footer style="height: auto; background-color: #4da326;">
-            <h1 style="color: white; margin: 0; padding: 40px; text-align: center;">Thanks for visiting!</h1>
+        <footer>
+            <h1>Thanks for visiting!</h1>
         </footer>
     </body>
 </html>
